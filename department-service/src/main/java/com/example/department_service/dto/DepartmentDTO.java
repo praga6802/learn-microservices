@@ -1,0 +1,16 @@
+package com.example.department_service.dto;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class DepartmentDTO {
+    private String departmentName;
+    private String HOD;
+    private String location;
+    private boolean isNbaAccredited;
+}
